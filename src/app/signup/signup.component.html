@@ -1,0 +1,52 @@
+<header style="width: 100%; height: 15%; background-color:#2B2B52;">
+
+</header>
+<div fxLayout="row" fxLayoutAlign="start stretch" class="paddiing-20 align-item-1" >
+  <div fxLayout="column" fxLayoutAlign=" end end" fxFlex="50">
+    <mat-card class="mat-size">
+      <form [formGroup]="signup" (ngSubmit)="onSubmit()">
+        <div>
+          <mat-form-field appearance="outline" class="mat-form-field-inputs">
+            <mat-label>First Name</mat-label>
+            <input matInput type="text" formControlName='fname'>
+            <mat-icon matSuffix>persons</mat-icon>
+          </mat-form-field>
+        </div>
+        <div>
+          <mat-form-field appearance="outline" class="mat-form-field-inputs">
+            <mat-label>Last Name</mat-label>
+            <input matInput type="text" formControlName='lname'>
+            <mat-icon matSuffix>person</mat-icon>
+          </mat-form-field>
+        </div>
+        <div>
+          <mat-form-field appearance="outline" class="mat-form-field-inputs">
+            <mat-label>Username</mat-label>
+            <input matInput type="text" formControlName='uname' >
+            <mat-icon matSuffix>people</mat-icon>
+          </mat-form-field>
+        </div>
+        <div>
+          <mat-form-field appearance="outline" class="mat-form-field-inputs">
+            <mat-label>password</mat-label>
+            <input [type]="hide ? 'password': 'text'" placeholder="password" formControlName="pass" matInput >
+            <mat-icon matSuffix (click)='hide = !hide'>{{hide ? 'visibility_off': 'visibility'}}</mat-icon>
+          </mat-form-field>
+        </div>
+        <div fxLayout="row" fxLayoutAlign="space-around space-around">
+        <div>
+          <button mat-button class="button-cancel" type="button" (click)="cancel()"> Cancel</button>
+        </div>
+        <div>
+          <button mat-button class="button-submit" [disabled]='!signup.valid' type="submit">Submit</button>
+        </div>
+      </div>
+      </form>
+    </mat-card>
+  </div>
+  <div fxLayout="column" fxLayoutAlign="center center" class="align-item-2" fxFlex="50">
+    <img style="opacity: 0.5;" src="../../assets/note.png" height="80%" width="50%" />
+  </div>
+</div>
+<footer style="width: 100%; height: 25%; ; background-color: #2B2B52;">
+</footer>

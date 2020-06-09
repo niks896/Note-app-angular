@@ -1,0 +1,29 @@
+.paddiing-20{
+padding: 20px;
+}
+.mat-size{
+  height: 100%;
+  width: 60%;
+}
+.mat-form-field-inputs{
+  width:100%;
+}
+.header{
+  background-color: #2B2B52;
+}
+.button-submit{
+  cursor: pointer;
+  color:#e3e6f0f6;
+  background-color:#5776c9f6;
+}
+.align-item-1{
+  align-items: flex-end;
+}
+.align-item-2{
+  align-items: center;
+}
+.button-cancel{
+  cursor: pointer;
+  color: white;
+  background-color:rgb(22, 70, 22)
+}

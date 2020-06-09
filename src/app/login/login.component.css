@@ -1,0 +1,63 @@
+.padding-15{
+  padding: 15px;
+}
+.login-form{
+  height: 100%;
+}
+.mat-login {
+  width: 28%;
+}
+.mat-form-field-inputs{
+  width:100%;
+}
+
+.input-element{
+  /* width: 100%; */
+}
+.color-red{
+  color:red;
+  cursor: pointer !important;
+  text-decoration: underline;
+}
+
+.padding-20{
+  padding-top: 25px;
+}
+
+.font-15{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.font-20{
+  font-size: 20px;
+}
+.color-gray{
+color:#8395A7;
+}
+
+.color-light-blue{
+  color: #00CCCD;
+}
+.text-decoration{
+  text-decoration: none;
+}
+.padding-15{
+padding: 15px;
+}
+
+.width-20{
+  width: 50%;
+}
+
+.padding-top{
+  padding-top: 10px;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+.padding-5{
+  padding-right: 5px;
+}

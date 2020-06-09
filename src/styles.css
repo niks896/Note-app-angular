@@ -1,0 +1,147 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+  /* background-image: url('../src/assets/pexels-photo-1229861.jpeg'); */
+  /* background-repeat: no-repeat;
+  background-size: 1366px 625px; */
+  background-color:#fafafa;
+ }
+
+ .navigation-bar{
+  padding-right: 15px;
+ }
+ .mat-icon-class{
+   color: white;
+   font-size: 50px;
+   line-height: 1.3;
+   width: 60px !important;
+   height: 60px !important;
+   cursor: pointer;
+ }
+
+ .profile{
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+ }
+
+ .mat-icon-profile{
+  font-size: 60px;
+  line-height: 1.0;
+  width: 45px !important;
+  height: 60px !important;
+  color: rgba(236, 239, 245, 0.952) ;
+ }
+.icon{
+  width: 20px !important;
+  height: 10px !important;
+  font-size: 20px;
+  line-height: 0.5;
+  color: rgba(177, 181, 189, 0.952);
+}
+ .edit{
+   color: rgba(177, 181, 189, 0.952);
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+.padding-top{
+  padding-top: 10%;
+}
+.font-15{
+  font-size: 18px;
+  color:  rgba(108, 112, 117, 0.952) ;
+}
+.width-20{
+  width: 20%;
+  height: 25%;
+}
+
+.flex{
+  flex-wrap: wrap;
+}
+
+.ellipes{
+text-overflow: ellipsis !important;
+overflow: hidden !important;
+white-space: nowrap !important;
+}
+
+.mat-icon-size{
+  font-size: 65px;
+  height: 75px !important;
+  width: 100px !important;
+  line-height:1.2;
+}
+
+.padding-10{
+  padding: 10px;
+}
+
+.width-100{
+  width: 100%;
+  color: gray;
+}
+.border-bottom{
+  border-bottom: lightgrey 1px solid;
+}
+.button-color-edit{
+  color:#487EB0;
+}
+
+.mat-color-treval{
+color: #FAD02E !important;
+}
+.mat-color-personal{
+  color: #0A79DF;
+}
+.mat-color-life{
+  color: #45CE30;
+}
+
+.mat-color-work{
+  color: #FF3031;
+}
+.mat-color-no{
+  color:#DAE0E2;
+}
+.sidnav-color{
+  background-color:whitesmoke;
+  box-shadow: 5px 5px 5px #dcdcdc;
+}
+.width-30{
+  width: 30%;
+}
+.notes-color{
+  font-size: 20px;
+  color: rgba(82, 79, 79, 0.801);
+  margin-bottom: 0px !important;
+  background-color: #f8fdc9 ;
+}
+.padding-20{
+  padding: 20px;
+}
+
+.mat-font-size{
+  color:#9ba7a6  !important;
+  font-size: 30px;
+  line-height: 0.5;
+}
+.box-shadow{
+  box-shadow: 5px 5px 5px  #d1cece;
+}
+.pointer{
+  cursor: pointer;
+}
+
+.submit-color{
+  background-color: green;
+  color: #DAE0E2;
+}
+
+.font-15-5{
+  font-size: 15px;
+}
+.line-height{
+  line-height: 0.5;
+}
